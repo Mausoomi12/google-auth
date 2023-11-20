@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload</title>
+    <link rel="stylesheet" href="public/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Upload</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/*" required>
+            <button type="submit">Upload Image</button>
+        </form>
+        <p><a href="/">Back to Home</a></p>
+    </div>
+</body>
+</html>
